@@ -1,18 +1,11 @@
 .nav.navbar-nav li:hover{background-color:red;}
 .nav.navbar-nav li a{text-align:center;}
-.navbar-header a{margin:10px;font-size:4.8em;border-radius:15px;color:white;position:relative;}
-.navbar-header a:hover{animation:wiggle 5s infinite;}
-.try{padding-top:10px;background-color:inherit;}
-.try:hover{left: 15px;animation:move 5s 3;position:absolute;}
+.navbar-header a{margin:10px;font-size:4.8em;border-radius:0px 35px 15px 0px;color:white;position:relative;}
 
-.try:hover~#c1{animation:size 100s infinite;}
 #p1{animation:fader 3s infinite;background-color:orange;padding:15px;border:13px magenta double;font-style:italic;text-decoration:overline;box-shadow:-10px -10px 80px #bf4de3;}
 #p2{animation:faded 5s infinite;background-color:yellow;padding:15px;font-weight:bold;color:blue;border:13px brown inset;box-shadow:0 0 100px #ccc119;text-decoration:line-through;}
 #p3{animation:fades 4s infinite;color:pink;background-color:#598765;padding:15px;border:13px #888888 dashed;box-shadow:0 0 100px #abdabd;text-decoration:underline;}
-@keyframes wiggle {50%{background-color:#903d3f;opacity:.9;color:white;}}
-@keyframes fader{50%{box-shadow:10px 10px 10px green;font-size:1.3em;}}
-@keyframes faded{50%{box-shadow:-10px 10px 10px purple;border:ridge 13px red;}}
-@keyframes fades{50%{box-shadow:50px 50px 10px orange;}}
+
 #mama{height:4001px;padding-top:90vw;background-color:#ccc;background:url("../images/pic.jpg") center repeat;}
 .row{padding:20px;}
 #p1,#p2,#p3{margin-bottom:100px;position:relative;height:700px;overflow:auto;padding:50px;}
@@ -21,21 +14,34 @@ section{text-align:center;font-size:2em;margin-bottom:30px;}
 h3{margin-top:30px;text-decoration:none;font-size:1.3em;}
 h3:hover {background-color:#738299;border:2px solid pink;border-radius:10px;}
 a:hover{color:white;text-decoration:none;}
+
+@keyframes wiggle {50%{background-color:#903d3f;opacity:.2;color:turquoise;}}
+@keyframes fader{50%{box-shadow:10px 10px 10px green;font-size:1.3em;}}
+@keyframes faded{50%{box-shadow:-10px 10px 10px purple;border:ridge 13px red;}}
+@keyframes fades{50%{box-shadow:50px 50px 10px orange;}}
 @keyframes grow{15%{font-size:2em;color:pink;}}
 @keyframes move{50%{left:500px;}}
 @keyframes mover{50%{left:345px;}}
 @keyframes size{0%{height:100px;}}
 @keyframes moves{50%{left:35px;color:blue;}}
 @keyframes spin{50%{rotate(360deg); transform:rotate(360deg);}}
-a:hover~.bx{animation:mover 5s 5s;background-color:black;width:35px;height:35px;position:absolute;left:350px;top:35px;border-radius:15px 50px 15px 15px;}
+
+.wls{visibility:hidden;}
+@media (min-width:768px) {a:hover~.bx{animation:mover 5s 5s;background-color:black;width:35px;height:35px;position:absolute;left:350px;top:35px;border-radius:15px 50px 15px 15px;}
+							.navbar-header a:hover{animation:wiggle 5s infinite;}
+							.try{padding-top:10px;background-color:inherit;}
+							.try:hover{left: 15px;animation:move 5s 3;position:absolute;}
+							a:hover~.wls{visibility:visible;animation:moves 5s 4;position:absolute;left:10%;top:60px;color:green;}
+							.try:hover~#c1{animation:size 100s infinite;}
+							}
+@media (max-width:767px){.navbar-header a:hover{animation:wiggle 5s infinite;}}
 #b1,#b2,#b3,#b4,#b5{border:none;background:inherit;position:absolute;top:0px;font-size:2em;color:inherit;animation:spin 5s linear infinite;}
 #b1{left:10px;}
 #b2{left:200px;}
 #b3{left:295px;}
 #b4{left:-20px;}
 #b5{left:170px;}
-.wls{visibility:hidden;}
-a:hover~.wls{visibility:visible;animation:moves 5s 4;position:absolute;left:10%;top:60px;color:green;}
+
 
 
 
