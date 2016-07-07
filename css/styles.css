@@ -2,7 +2,7 @@
 .nav.navbar-nav li a{text-align:center;}
 .navbar-header a{margin:10px;font-size:4.8em;border-radius:0px 35px 15px 0px;color:white;position:relative;}
 #p1,#p2,#p3{line-height:2em;margin-bottom:100px;position:relative;height:700px;overflow:auto;padding:50px;}
-#p1{overflow:none;animation:fader 5s infinite;background-color:orange;font-weight:bold;padding:15px;border:13px green double;font-style:italic;text-decoration:overline;box-shadow:-10px -10px 80px #bf4de3;}
+#p1{line-height:.6;overflow:hidden;animation:fader 20s infinite;background-color:orange;font-weight:bold;padding:15px;border:13px green double;font-style:italic;text-decoration:overline;box-shadow:-10px -10px 80px #bf4de3;}
 #p2{animation:faded 5s infinite;background-color:yellow;padding:15px;font-weight:bold;color:blue;border:13px brown inset;box-shadow:0 0 100px #ccc119;text-decoration:line-through;}
 #p3{animation:fades 4s infinite;color:pink;background-color:#598765;padding:15px;border:13px #888888 dashed;box-shadow:0 0 100px #abdabd;text-decoration:underline;}
 
@@ -15,7 +15,7 @@ h3:hover {background-color:#738299;border:2px solid pink;border-radius:10px;}
 a:hover{color:white;text-decoration:none;}
 
 @keyframes wiggle {50%{background-color:#903d3f;opacity:.2;color:turquoise;}}
-@keyframes fader{50%{box-shadow:10px 10px 10px green;border:13px groove magenta;font-size:1.3em;color:pink;background-color:maroon;text-shadow:-20px -10px 10px purple;line-height:1em;}}
+@keyframes fader{100%{box-shadow:10px 10px 10px green;border:13px groove magenta;font-size:2em;color:pink;background-color:#ae14ef;text-shadow:-30px -20px 7px #a615a6;line-height:1em;}}
 @keyframes faded{50%{box-shadow:-10px 10px 10px purple;border:ridge 13px red;}}
 @keyframes fades{50%{box-shadow:50px 50px 10px orange;border:dotted 13px #999999 ;}}
 @keyframes grow{15%{font-size:2em;}}
