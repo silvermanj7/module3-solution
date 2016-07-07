@@ -18,7 +18,7 @@ a:hover{color:white;text-decoration:none;}
 @keyframes wiggle {50%{background-color:#903d3f;opacity:.2;color:turquoise;}}
 @keyframes fader{50%{box-shadow:10px 10px 10px green;font-size:1.3em;}}
 @keyframes faded{50%{box-shadow:-10px 10px 10px purple;border:ridge 13px red;}}
-@keyframes fades{50%{box-shadow:50px 50px 10px orange;}}
+@keyframes fades{50%{box-shadow:50px 50px 10px orange;border:dotted 13px #999999 ;}}
 @keyframes grow{15%{font-size:2em;color:pink;}}
 @keyframes move{50%{left:500px;}}
 @keyframes mover{50%{left:345px;}}
