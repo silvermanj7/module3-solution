@@ -1,15 +1,17 @@
 .nav.navbar-nav li:hover{background-color:red;}
+#ec:hover{background-color:gold;}
+
 .nav.navbar-nav li a{text-align:center;}
 .navbar-header a{margin:10px;font-size:4.8em;border-radius:0px 35px 15px 0px;color:white;position:relative;}
 #p1,#p2,#p3{line-height:2em;margin-bottom:100px;position:relative;height:700px;overflow:auto;padding:50px;}
 #p1{line-height:.6;overflow:hidden;animation:fader 20s infinite;background-color:orange;font-weight:bold;padding:15px;border:13px green double;font-style:italic;text-decoration:overline;box-shadow:-10px -10px 80px #bf4de3;}
 #p2{animation:faded 5s infinite;background-color:yellow;padding:15px;font-weight:bold;color:blue;border:13px brown inset;box-shadow:0 0 100px #ccc119;text-decoration:line-through;}
 #p3{animation:fades 4s infinite;color:pink;background-color:#598765;padding:15px;border:13px #888888 dashed;box-shadow:0 0 100px #abdabd;text-decoration:underline;}
-#pg-titl{color:white;font-size:2em;padding-top:30vw;}
+#pg-titl{color:white;font-size:2em;padding-top:20vw;}
 #mama{height:4001px;;background-color:#ccc;background:url("../images/pic.jpg") center repeat;}
-.row{padding:90vw 20px 0 20px;}
+.row{padding:40vw 20px 0 20px;}
 section{text-align:center;font-size:2em;margin-bottom:30px;}
-h3{margin-top:125px;text-decoration:none;font-size:1.3em;}
+h3{margin-top:10vw;text-decoration:none;font-size:1.3em;}
 
 h3:hover {background-color:#738299;border:2px solid pink;border-radius:10px;}
 a:hover{color:white;text-decoration:none;}
