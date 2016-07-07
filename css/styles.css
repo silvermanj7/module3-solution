@@ -27,7 +27,7 @@ a:hover{color:white;text-decoration:none;}
 @keyframes size{0%{height:100px;}}
 @keyframes moves{50%{left:35px;color:blue;}}
 @keyframes spin{50%{rotate(360deg); transform:rotate(360deg);}}
-a:hover~.bx{animation:mover 5s 5s;background-color:black;width:35px;height:35px;position:absolute;left:350px;top:35px;}
+a:hover~.bx{animation:mover 5s 5s;background-color:black;width:35px;height:35px;position:absolute;left:350px;top:35px;border-radius:15px 50px 15px 15px;}
 #b1,#b2,#b3,#b4,#b5{border:none;background:inherit;position:absolute;top:0px;font-size:2em;color:inherit;animation:spin 5s linear infinite;}
 #b1{left:10px;}
 #b2{left:200px;}
